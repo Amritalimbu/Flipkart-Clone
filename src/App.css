@@ -1,0 +1,19 @@
+.App {
+  text-align: center;
+}
+
+.navbar{
+  background-color: rgb(52, 52, 250);
+  height: 80px;
+}
+.kartimg{
+  font-size: xx-large;
+  text-align: center;
+  height: 60px;
+  width: 60px;
+  margin-left: 50px;
+}
+#img{
+  margin-top: 20px;
+}
+

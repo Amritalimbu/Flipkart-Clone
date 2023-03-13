@@ -1,0 +1,21 @@
+.footer{
+    background-color: #fff;
+}
+.p{
+    padding: 20px;  
+    color: #878787;  
+}
+#ptag{
+    margin-top: -40px;
+}
+#div2{
+    color: #fff;
+    background-color: #172337;
+    display: grid;
+    grid-template-columns: repeat(6,1fr);
+    font-size: small;
+}
+#p{
+    color: #878787;
+    padding-left: 36px;
+}

@@ -1,0 +1,331 @@
+body{
+    background-color: #f1f3f6;
+}
+nav{
+    background-color: #2874f0;
+    display: grid;
+    grid-template-columns: repeat(8,1fr);
+    gap: 15px;
+    height: 60px;
+    width: 100vw;
+}
+#logo{
+    width: 100px;
+    height: 60px;
+    grid-column: 2/3;  
+    display: grid;
+}
+#logoimg{
+    margin-left: 76px;
+    margin-top: -26px;
+    width: 10px;
+}
+#h2{
+    font-style: italic;
+    font-size: x-large;
+    color: white;
+    margin-top: 0px;
+    align-items: center;
+    text-align: center;
+}
+#explore{
+    font-style: italic;
+    margin-top: -22px;
+    margin-right: 18px;
+    align-items: center;
+    text-align: center;
+    
+}
+.searchbar{
+    text-align: center;
+    align-items: center;
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+
+}
+#inputbtn{
+    width: 320px;
+    height: 20px;
+    padding: 10px;
+    border: none;
+}
+#searchbtn{
+    background: #fff;
+    color: #2874f0;
+    width: 40px;
+    height: 40px;
+    font-size: large;
+    margin-left: -20px;
+    border: none;
+}
+#loginbtn{
+    border: 1px solid red;
+}
+
+#seller{
+    height: 40px;
+    width: 150px;
+    text-align: end;
+    line-height: 15px;
+    font-size: 16px;
+    letter-spacing: .1px;
+    font-weight: 500;
+    color: #fff;
+}
+#more{
+    /* border: 1px solid; */
+    height: 40px;
+    align-items: center;
+    text-align: end;
+    right: 40px;
+    line-height: 15px;
+    font-size: 16px;
+    letter-spacing: .1px;
+    font-weight: 500;
+    color: #fff; 
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    z-index: 5;
+}
+#h4{
+    width: 120px;
+}
+#drop{
+    margin-top: 3px;
+    align-items: end;
+}
+.ul{
+    color: black;
+    position: absolute;
+    top: 3rem;
+    width: 220px;
+    border-bottom: hidden;
+    padding-left: -0;
+    margin-left: -80px;
+    background-color: #fff;
+    box-shadow: 0px 0px 6px 0px gray;
+    /* pointer-events: cursor; */
+}  
+.ul::before{
+    background-color: #2874f0;
+    content: ' ';
+    position: absolute;
+    /* top: -0.7rem; */
+    top: -12px;
+    width: 1.3rem;
+    right: 1.1rem;
+    height: 20px;
+    transform: rotate(45deg);
+    background-color: white;
+    border-left: 1px solid rgb(231, 228, 228);
+    border-top: 1px solid rgb(231, 228, 228);
+}
+
+.liArow{
+    width: 196px;
+    padding: 12px;
+    color: black;
+    align-items: center;
+    text-align: start;
+    box-shadow: 0px 0.3px 0px 0px gray;
+}
+ul > li{
+    list-style-type: none;
+}
+
+#cart{
+    height: 40px;
+    align-items: center;
+    text-align: end;
+
+    line-height: 15px;
+    font-size: 16px;
+    letter-spacing: .1px;
+    font-weight: 500;
+    color: #fff;
+}
+
+/* ......catogariesdiv...... */
+.catogariesdiv{
+    display: grid;
+    background-color: #fff;
+    grid-template-columns: repeat(10,1fr);
+    text-align: center;
+    box-shadow: 0px 0px 2px 0px gray;
+    /* z-index: 3; */
+    /* position: absolute; */
+}
+
+#groceryimg{
+    width: 70px;
+    padding-top: 4px;
+    cursor: pointer;
+}
+#groceryP{
+    margin-top: -4px;
+    font-weight: 500;
+    font-size: 14px;
+    font-size: small;
+    cursor: pointer;
+}
+
+#mobilesimg{
+    width: 70px;
+    padding-top: 4px;
+}
+#mobilesP{
+    margin-top: -4px;
+    font-weight: 500;
+    font-size: 14px;
+    font-size: small;
+}
+#fashionimg{
+    width: 70px;
+    padding-top: 4px;
+    
+}
+#fashiondiv{
+    width: 120px;
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+}
+#fashionP{
+    margin-top: -4px;
+    font-weight: 500;
+    font-size: 14px;
+    font-size: small;
+    margin-left: 30px;
+}
+.fashionUl{
+    padding-bottom: 15px;
+    margin-right: -120px;
+    position: absolute;
+    box-shadow: 0px 0px 10px 0px gray;
+    z-index: 3;
+    background-color: #fff;
+}
+.fashionUl::before{
+    content: "";
+    border: 1px solid rgb(206, 204, 204);
+    background-color: #fff;
+    display: block;
+    width: 15px;
+    height: 15px;
+    rotate: 45deg;
+    position: relative;
+    top: -8px;
+    border-bottom: none;
+    border-right: none;
+}
+.fashionLi{
+    width: 182px;
+    padding: 8px;
+    text-align: start;
+    position: relative;
+    left: -20px;    
+}
+.fashionLi:hover{
+    background-color:#f1f3f6 ;
+}
+/* ul > li{
+    list-style-type: lower-alpha;
+} */
+#Electronicsimg{
+    width: 70px;
+    padding-top: 4px;
+}
+.ElectronicDiv{
+    width: 120px;
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+}
+#ElectronicsP{
+    margin-top: -4px;
+    font-weight: 500;
+    font-size: 14px;
+    font-size: small;
+    margin-left: 20px;
+}
+
+#homeimg{
+    width: 70px;
+    padding-top: 4px;
+}
+.homeDiv{
+    width: 120px;
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+}
+#homeP{
+    margin-top: -4px;
+    font-weight: 500;
+    font-size: 14px;
+    font-size: small;
+    margin-left: 40px;
+}
+
+#AppliancesImg{
+    width: 70px;
+    padding-top: 4px;
+}
+#AppliancesP{
+    margin-top: -4px;
+    font-weight: 500;
+    font-size: 14px;
+    font-size: small;
+}
+
+#TravelImg{
+    width: 70px;
+    padding-top: 4px;
+}
+#TravelP{
+    margin-top: -4px;
+    font-weight: 500;
+    font-size: 14px;
+    font-size: small;
+}
+
+#TopOffersImg{
+    width: 70px;
+    padding-top: 4px;
+}
+#TopOffersP{
+    margin-top: -4px;
+    font-weight: 500;
+    font-size: 14px;
+    font-size: small;
+}
+
+#BeautyImg{
+    width: 70px;
+    padding-top: 4px;
+}
+.BeautyDiv{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+}
+#BeautyP{
+    width: 122px;
+    margin-top: -4px;
+    font-weight: 500;
+    font-size: 14px;
+    font-size: small;
+}
+
+#TwoWheelersImg{
+    width: 70px;
+    padding-top: 4px;
+}
+.TwoWheelerDiv{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+}
+#TwoWheelersP{
+    margin-top: -4px;
+    font-weight: 500;
+    font-size: 14px;
+    font-size: small;
+    width: 85px;
+    margin-left: 10px;
+}
